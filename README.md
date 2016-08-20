@@ -1,6 +1,6 @@
 ## development-meteor - Docker Runtime for non packaged Meteor Apps
 
-This image is made to run Meteor apps as you would run them locally with `meteor`
+This image is made to run Meteor apps as you would run them locally with `meteor`. It is basically a Node Image with Meteor preinstalled.
 
 This would allow you to deploy a debug version of your app on your server and share it with your team/testers.
 
