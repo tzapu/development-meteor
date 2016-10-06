@@ -8,5 +8,5 @@ ENV LANG C.UTF-8
 ENV LANGUAGE C.UTF-8
 ENV LC_ALL C.UTF-8
 
-RUN ln -s /usr/local/bin/node /usr/local/bin/nodejs
+#RUN ln -s /usr/local/bin/node /usr/local/bin/nodejs
 RUN curl -sL https://install.meteor.com/?release=1.4.1.2  | sed s/--progress-bar/-sL/g | /bin/sh
